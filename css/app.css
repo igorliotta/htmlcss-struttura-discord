@@ -101,12 +101,11 @@ body {
 
 .container-s-section {
     width: 1200px;
-    min-height: 500px;
     background-color: white;
 }
 
 .row-s-section {
-    margin: 60px;
+    margin: 40px 0px;
     display: flex;
 }
 
@@ -125,3 +124,18 @@ body {
     border: 1px dashed black;
 }
 /* Inizio terza section */
+
+.container-t-section {
+    width: 1200px;
+    min-height: 500px;
+    background-color: #d3d3d3;
+}
+
+.row-t-section {
+    padding: 60px;
+    display: flex;
+}
+
+/* Inizio quarta section */
+
+
