@@ -30,14 +30,14 @@ body {
 /* Inizio Header */
 
 .container {
-    min-width: 1000px;
-    margin: 0 auto;
+    min-height: 50px;
     background-color: #add8e6;
 }
 
 .page-header {
     min-height: 50px;
     background-color: #add8e6;
+    padding: 0px 40px;
 }
 
 .row {
