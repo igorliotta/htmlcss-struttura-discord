@@ -14,17 +14,17 @@ body {
 
 .debug .container {
     padding: 10px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .debug .page-header {
     padding: 10px;
-    border: 1px solid #add8e6;
+    /* border: 1px solid #add8e6; */
 }
 
 .debug .row {
     padding: 10px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 } 
 
 /* Header */
@@ -40,16 +40,30 @@ body {
 
 .col-3 {
     flex-basis: calc(100% / 4);
-    min-height: 60px;
+    min-height: 30px;
     background-color: #daa520;
-    border: 1px solid black;
+    border: 1px dashed black;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.col-3-end {
+    flex-basis: calc(100% / 4);
+    min-height: 30px;
+    background-color: #daa520;
+    border: 1px dashed black;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: end;
 }
 
 .col-6 {
     flex-basis: calc(100% / 2);
-    min-height: 60px;
+    min-height: 30px;
     background-color: #daa520;
-    border: 1px solid black;
+    border: 1px dashed black;
+    text-align: center;
+    line-height: 30px;
 }
 
 
