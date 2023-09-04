@@ -3,3 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* DEBUG RULES */
+
+.debug .container {
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.debug .page-header {
+    padding: 10px;
+    border: 1px solid #add8e6;
+}
+
+.debug .row {
+    padding: 10px;
+    border: 1px solid red;
+} 
+
+/* Header */
+
+.page-header {
+    width: 100%;
+    min-height: 50px;
+    background-color: #add8e6;
+}
+
+.row {
+    display: flex;
+}
+
+.col-3 {
+    flex-basis: calc(100% / 4);
+    min-height: 60px;
+    background-color: #daa520;
+    border: 1px solid black;
+}
+
+.col-6 {
+    flex-basis: calc(100% / 2);
+    min-height: 60px;
+    background-color: #daa520;
+    border: 1px solid black;
+}
+
+
+
+
