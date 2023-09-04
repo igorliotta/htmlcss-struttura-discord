@@ -102,10 +102,10 @@ body {
 .container-s-section {
     width: 1200px;
     background-color: white;
+    padding: 60px;
 }
 
 .row-s-section {
-    margin: 40px 0px;
     display: flex;
 }
 
@@ -136,5 +136,25 @@ body {
     display: flex;
 }
 
+/* Quinta section */
+
+.container-q-section {
+    width: 1200px;
+    background-color: #d3d3d3;
+    padding: 60px;
+}
+
+.row-q-section {
+    margin: 40px 0px;
+    display: flex;
+}
+
+.col-12 {
+    flex-basis: 100%;
+    min-height: 750px;
+    background-color: #228b22;
+    border: 1px dashed black;
+    padding: 60px;
+} 
 
 
