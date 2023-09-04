@@ -41,6 +41,7 @@ body {
 }
 
 .row {
+    width: 100%;
     display: flex;
 }
 
@@ -74,10 +75,12 @@ body {
 
 /* Inizio Main */
 
+/* Inizio prima section */
 .row-f-section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .container-f-section {
@@ -90,6 +93,35 @@ body {
     width: 600px;
     min-height: 270px;
     background-color: #ee82ee;
-    border: 2px dashed black;
+    border: 1px dashed black;
     margin: 60px;
 }
+
+/* Inizio seconda section */
+
+.container-s-section {
+    width: 1200px;
+    min-height: 500px;
+    background-color: white;
+}
+
+.row-s-section {
+    margin: 60px;
+    display: flex;
+}
+
+.col-6-s {
+    flex-basis: calc( 100% / 3 );
+    min-height: 400px;
+    background-color: #1e90ff;
+    flex-grow: 1;
+    border: 1px dashed black;
+}
+
+.col-6-t {
+    flex-basis: calc( 100% / 3 );
+    min-height: 400px;
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
+/* Inizio terza section */
